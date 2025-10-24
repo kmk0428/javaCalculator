@@ -20,5 +20,10 @@ public class Main {
         calc_div.divide();
         calc_div.displayResult("/");
 
+        ScientificCalculator calc_exp = new ScientificCalculator();
+        calc_exp.setNumbers(10, 2);
+        calc_exp.exponentiation();
+        calc_exp.displayResult("^");
+
     }
 }
